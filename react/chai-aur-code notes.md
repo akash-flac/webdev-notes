@@ -79,6 +79,62 @@ function Car({brand}) {
 }
 ```
 
+# React Router
+React Router enables "client side routing".
+
+In traditional websites, the browser requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server. When the user clicks a link, it starts the process all over again for a new page.
+
+Client side routing allows your app to update the URL from a link click without making another request for another document from the server. Instead, your app can immediately render some new UI and make data requests with `fetch` to update the page with new information.
+
+This enables faster user experiences because the browser doesn't need to request an entirely new document or re-evaluate CSS and JavaScript assets for the next page. It also enables more dynamic user experiences with things like animation. 
+
+Client side routing is enabled by creating a `Router` and linking/submitting to pages with `Link` and `<Form>`:
+(example)
+```jsx
+import * as React from "react"; 
+import { createRoot } from "react-dom/client"; 
+import { createBrowserRouter, RouterProvider, Route, Link, } from "react-router-dom"; 
+const router = createBrowserRouter([ 
+	{ 
+	path: "/", 
+	element: (
+	 <div> 
+	 <h1>Hello World</h1> 
+	 <Link to="about">About Us</Link>
+	  </div> 
+	  ), 
+	}, 
+	  { 
+	  path: "about", 
+	  element: <div>About</div>, 
+	  }, 
+	  ]); 
+	  
+ createRoot(document.getElementById("root")).render( 
+ <RouterProvider router={router} /> 
+ );
+```
+
+![[Pasted image 20240910193110.png]]
+![[Pasted image 20240910193120.png]]
+Here, to switch pages at the same URL, we use routing. React-router is used for this specific purpose. 
+
+For this purpose, we design the structure of our project in this way. 
+![[Pasted image 20240910193417.png]]
+We keep a separate components folder wherein we store all the components separately. We create a router in the `main.jsx` file and use it for routing between the pages. `Layout.jsx` file is created to create a certain structure of the UI. 
+
+- ![[Pasted image 20240910193727.png]]
+`main.jsx` : Here, we create the browser router and use it for routing between the pages of the webpage. The syntax is given. This is one way. There is another way. It's given below.
+![[Pasted image 20240910194006.png]]
+
+ ![[Pasted image 20240910194117.png]] 
+ - `Layout.jsx` : We use this file to have a certain structure for the UI. What we're trying to do here is have a separate header at the top and footer at the bottom, and only the components in between them are changed, as the header and footer are common in all.
+
+
+
+
+
+
 
 
 
