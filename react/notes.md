@@ -1,0 +1,2 @@
+# Babel
+Babel is a JavaScript transpiler. Babel turns ES6 code into ES5 code. We call this process transpiling. So we can enjoy the features of ES6 today yet ensure our code still runs in browsers that only support ES5. Another handy feature of Babel is that it understands JSX. Babel compiles our JSX into vanilla ES5 JS that our browser can then interpret and execute. We just need to instruct the browser that we want to use Babel to compile and run our JavaScript code
