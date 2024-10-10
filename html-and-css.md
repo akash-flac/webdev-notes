@@ -86,7 +86,7 @@ CSS removed the style formatting from the HTML page!
 ### Syntax
 A CSS rule consists of a selector and a declaration block.
 
-![[Pasted image 20240906152113.png]]
+![](attachments/Pasted%20image%2020240906152113.png)
 
 The selector points to the HTML element you want to style.
 The declaration block contains one or more declarations separated by semicolons.
@@ -132,7 +132,7 @@ In CSS, the term "box model" is used when talking about design and layout.
 
 The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.
 
-![[Pasted image 20240906153923.png]]
+![](attachments/Pasted%20image%2020240906153923.png)
 
 Explanation of the different parts:
 

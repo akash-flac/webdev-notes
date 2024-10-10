@@ -78,11 +78,11 @@
 - It is used to verify(or authenticate) a user.
 - Here, we pass JSON through a function called `jwt.encode`, and the output is then again passed through another function `jwt.verify` along with the original password, which gives the original object, verifying the user.
 - JWT is stored in the local application storage of the user.
-- ![[Pasted image 20240911191220.png]]
-- ![[Pasted image 20240911191519.png]]
+- ![](attachments/Pasted%20image%2020240911191220.png)
+- ![](attachments/Pasted%20image%2020240911191519.png)
 
 ## databases
-![[Pasted image 20240911192001.png]]
+![](attachments/Pasted%20image%2020240911192001.png)
 
 - There are various types of databses:
 	- Graph : specific use cases

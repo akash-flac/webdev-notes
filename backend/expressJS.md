@@ -1,4 +1,4 @@
-![[Pasted image 20240910233539.png]]
+![](attachments/Pasted%20image%2020240910233539.png)
 We create a server to provide abstraction to our code, wherein we can expose the functionality of our code to the world without having to expose the code. 
 Using server, we won't need the code to use it's functionality. We can have a code at some server where we can request access to it's functionality from some other place. 
 

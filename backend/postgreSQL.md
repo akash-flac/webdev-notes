@@ -19,10 +19,10 @@ SQL database :
 - Creating a table and defining it's schema
 - Run queries on the database to interact with the data (Insert/Update/Delete)
 
-- ![[Pasted image 20240911225929.png]] This is how a postgreSQL connection string looks like.
+- ![](../attachments/Pasted%20image%2020240911225929.png) This is how a postgreSQL connection string looks like.
 
 CRUD operations :
-![[Pasted image 20240911230324.png]]
+![](../attachments/Pasted%20image%2020240911230324.png)
 
  
 
