@@ -1,0 +1,5 @@
+- Everything in JS happens inside an Execution Context.
+- ![](attachments/Pasted%20image%2020241108205811.png)
+- JS is a synchronous single-threaded language.
+- JavaScript code execution involves creating an execution context with two phases: memory creation and code execution. During memory creation, variables and functions are allocated memory and initialized to undefined. In the code execution phase, values are assigned, functions are invoked, and a call stack manages execution contexts, ensuring proper order and control.
+- 

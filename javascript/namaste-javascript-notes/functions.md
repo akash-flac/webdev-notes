@@ -1,0 +1,5 @@
+- function statement
+- function expression
+- anonymous functions
+- named function expression
+- first-class functions
