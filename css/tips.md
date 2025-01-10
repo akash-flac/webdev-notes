@@ -1,0 +1,2 @@
+- 1 rem = 16px
+- `height: auto` resizes the image 
